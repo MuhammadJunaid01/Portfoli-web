@@ -53,6 +53,7 @@ h1{
 
 .hasan img{
     width: 50%;
+    margin-left: 10px;
 }
 .text a{
     text-decoration: none;
@@ -67,13 +68,38 @@ h1{
 
 .flexible{
     display: flex;
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    
 }
 
 .mahmud{
     width: 50%;
     margin-left: 10px;
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    padding: 5px 15px;
+    border-radius: 9px;
+    border-left: 4px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
 }
 
 .hossain{
     width: 50%;
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 7%;
+    padding: 5px 10px;
+    border-radius: 9px;
+    border-left: 4px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    
+}
+
+.sass{
+    margin-left: 10px;
 }
