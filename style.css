@@ -18,7 +18,7 @@ h1{
     color: orange;
     font-size: 40px;
 }
-section{
+.top-banner{
     display: flex;
 }
 
@@ -62,5 +62,18 @@ section{
     border-radius: 8px;
 }
 .text{
+    width: 50%;
+}
+
+.flexible{
+    display: flex;
+}
+
+.mahmud{
+    width: 50%;
+    margin-left: 10px;
+}
+
+.hossain{
     width: 50%;
 }
